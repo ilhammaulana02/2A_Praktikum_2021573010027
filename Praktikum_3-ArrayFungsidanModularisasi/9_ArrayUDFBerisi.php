@@ -1,6 +1,6 @@
 <?php
     function psgpjg ($pjg, $lbr){
-        return $luas;
+        return $luas = $pjg * $lbr;
     }
     $bil1 = 5;
     $bil2 = 3;
