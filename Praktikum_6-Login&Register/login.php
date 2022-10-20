@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!empty($_SESSION['username_xyz'])){
+    header("location:dashboard.php");
+    exit();
+}
+?>
 <html>
     <head>
         <title>Login</title>
